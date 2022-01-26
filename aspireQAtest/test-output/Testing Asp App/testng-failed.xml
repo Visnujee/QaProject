@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Asp App]">
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="com.aspireapp.test.TestPage">
+        <methods>
+          <include name="Login"/>
+          <include name="tearDown"/>
+          <include name="browserInit"/>
+        </methods>
+      </class> <!-- com.aspireapp.test.TestPage -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Testing Asp App] -->

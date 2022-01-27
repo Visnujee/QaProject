@@ -33,7 +33,7 @@ public boolean homePageLogin(String userName, String passWord) {
 		}
     
 2.Execute the test cases :
-Go to TestPage.Java right click on that , click run as and select TestNG Test
+This project will be executed by using testNG.xml file. 
 
 
 Reporting
